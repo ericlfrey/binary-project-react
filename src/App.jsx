@@ -9,14 +9,14 @@ import Output from './components/Output';
 function App() {
   return (
     <>
-    <div class='heading'>
+    <div>
       <Heading />
     </div>
-    <div class='input button'>
+    <div>
     <Input />
     <Button />
     </div>
-    <div class='output' id='output clear'>
+    <div>
       <Output />
       <Clear />
     </div>
